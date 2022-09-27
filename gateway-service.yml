@@ -60,3 +60,8 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 3
         registerHealthIndicator: true
         allowHealthIndicatorToFail: false        
+
+management:
+  health:
+    circuitbreakers:
+      enabled: true
