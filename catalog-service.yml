@@ -30,3 +30,7 @@ resilience4j:
         registerHealthIndicator: true
         allowHealthIndicatorToFail: false
       
+management:
+  health:
+    circuitbreakers:
+      enabled: true
