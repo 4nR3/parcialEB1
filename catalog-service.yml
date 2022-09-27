@@ -6,7 +6,17 @@ spring:
     client:
       service-url:
         defaultZone: http://localhost:8761/eureka
-        
+  rabbitmq:
+    username:guest
+    password:guest
+    host: http://localhost:5672
+    port: 5672
+    
+queue:
+  movie:
+    name: Movie
+  serie:
+    name: Serie
  
 resilience4j:
   circuitbreaker:
