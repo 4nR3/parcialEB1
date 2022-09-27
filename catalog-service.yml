@@ -18,7 +18,3 @@ queue:
   serie:
     name: Serie
     
-management:
-  health:
-    circuitbreakers:
-      enabled: true
