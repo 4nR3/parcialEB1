@@ -23,7 +23,8 @@ spring:
     password:guest
     host: http://localhost:5672
     port: 5672
-  queue:
-    movie:
-      name: Movie
+    
+queue:
+  movie:
+    name: Movie
  
