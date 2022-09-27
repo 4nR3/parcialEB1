@@ -1,5 +1,5 @@
 spring:
-	sleuth:
+  sleuth:
     sampler:
         probability: 1.0
   rabbitmq:
